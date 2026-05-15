@@ -12,13 +12,13 @@ summary: 'The following section describes the key concepts and terms used in the
 The following section describes the key concepts and terms used in the document. 
 
 === ASA r2 systems
-The new NetApp ASA r2 systems deliver a unified hardware and software solution that creates a simplified experience specific to the needs of SAN-only customers. https://docs.netapp.com/us-en/asa-r2/get-started/learn-about.html[Learn about ASA r2 storage systems].
+The new NetApp ASA r2 systems deliver a unified hardware and software solution that creates a simplified experience specific to the needs of SAN-only customers. https://docs.netapp.com/us-en/asa-r2/get-started/learn-about.html[Learn about ASA r2 storage systems^].
 
 === Certificate authority (CA)
 CA is a trusted entity that issues Secure Sockets Layer (SSL) certificates.
 
 === Consistency group
-A consistency group is a collection of volumes that are managed as a single unit. In ONTAP, consistency groups provide easy management and a protection guarantee for an application workload spanning multiple volumes. Learn more about https://docs.netapp.com/us-en/ontap/consistency-groups/index.html[consistency group].
+A consistency group is a collection of volumes that are managed as a single unit. In ONTAP, consistency groups provide easy management and a protection guarantee for an application workload spanning multiple volumes. Learn more about https://docs.netapp.com/us-en/ontap/consistency-groups/index.html[consistency group^].
 
 === Dual stack
 A dual-stack network is a networking environment that supports the simultaneous use of both IPv4 and IPv6 addresses.
@@ -44,7 +44,7 @@ OVA is an open standard for packaging and distributing virtual appliances or sof
 RPO is a measure of how frequently data is backed up or replicated. It represents the point in time to which data must be recovered after an outage in order to resume business operations. For example, if an organization has an RPO of 4 hours, it can tolerate losing up to 4 hours of data in the event of a disaster.
 
 === SnapMirror active sync (SMAS)
-SnapMirror active sync enables business services to continue operating even through a complete site failure, supporting applications to fail over transparently using a secondary copy. Manual intervention nor custom scripting are required to trigger a failover with SnapMirror active sync. Lear more about https://docs.netapp.com/us-en/ontap/snapmirror-active-sync/index.html[SnapMirror active sync].
+SnapMirror active sync enables business services to continue operating even through a complete site failure, supporting applications to fail over transparently using a secondary copy. Manual intervention nor custom scripting are required to trigger a failover with SnapMirror active sync. Lear more about https://docs.netapp.com/us-en/ontap/snapmirror-active-sync/index.html[SnapMirror active sync^].
 
 === Storage backends
 Storage backends are the underlying storage infrastructure that the ESXi host uses to store virtual machine files, data, and other resources. The storage backend allows the ESXi host to access and manage persistent data, providing the required storage capability and performance for virtualized environment. 
@@ -84,7 +84,7 @@ VAAI is a set of APIs that enables communication between VMware vSphere ESXi hos
 vSphere Metro Storage Cluster (vMSC) is a technology that enables and supports vSphere in a stretched
 cluster deployment. vMSC solutions are supported with NetApp MetroCluster and SnapMirror active sync
 (formerly SMBC). These solutions provide enhanced business continuity in the case of domain failure. The
-resiliency model is based on your specific configuration choices. Learn more about https://core.vmware.com/resource/vmware-vsphere-metro-storage-cluster-vmsc[VMware vSphere Metro Storage Cluster].
+resiliency model is based on your specific configuration choices. Learn more about https://core.vmware.com/resource/vmware-vsphere-metro-storage-cluster-vmsc[VMware vSphere Metro Storage Cluster^].
 
 === vVols datastore
 The vVols datastore is a logical datastore representation of a vVols container which is created and maintained by a VASA Provider.

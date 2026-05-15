@@ -35,7 +35,7 @@ In you plan to use only a small single node deployment, creating a content libra
 . Select *Actions* in the right of the page and select *Import item* and import the OVA file.
 
 [NOTE]
-For more information, refer to https://blogs.vmware.com/vsphere/2020/01/creating-and-using-content-library.html[Creating and Using Content Library] blog.
+For more information, refer to https://blogs.vmware.com/vsphere/2020/01/creating-and-using-content-library.html[Creating and Using Content Library^] blog.
 
 [NOTE]
 Before proceeding with the deployment, set the cluster's Distributed Resource Scheduler (DRS) on the inventory to 'Conservative'. This ensures that VMs are not migrated during the installation.
