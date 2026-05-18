@@ -44,7 +44,7 @@ OVA is an open standard for packaging and distributing virtual appliances or sof
 RPO is a measure of how frequently data is backed up or replicated. It represents the point in time to which data must be recovered after an outage in order to resume business operations. For example, if an organization has an RPO of 4 hours, it can tolerate losing up to 4 hours of data in the event of a disaster.
 
 === SnapMirror active sync (SMAS)
-SnapMirror active sync enables business services to continue operating even through a complete site failure, supporting applications to fail over transparently using a secondary copy. Manual intervention nor custom scripting are required to trigger a failover with SnapMirror active sync. Lear more about https://docs.netapp.com/us-en/ontap/snapmirror-active-sync/index.html[SnapMirror active sync^].
+SnapMirror active sync enables business services to continue operating even through a complete site failure, supporting applications to fail over transparently using a secondary copy. Manual intervention nor custom scripting are required to trigger a failover with SnapMirror active sync. Learn more about https://docs.netapp.com/us-en/ontap/snapmirror-active-sync/index.html[SnapMirror active sync^].
 
 === Storage backends
 Storage backends are the underlying storage infrastructure that the ESXi host uses to store virtual machine files, data, and other resources. The storage backend allows the ESXi host to access and manage persistent data, providing the required storage capability and performance for virtualized environment. 
