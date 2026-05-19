@@ -14,7 +14,7 @@ Install the NFS VAAI plug-in using ONTAP tools for VMware vSphere to leverage th
 
 .Before you begin
 
-* Download the https://mysupport.netapp.com/site/products/all/details/nfsplugin-vmware-vaai/downloads-tab[NetApp NFS Plug-in for VMware VAAI] installation package.
+* Download the https://mysupport.netapp.com/site/products/all/details/nfsplugin-vmware-vaai/downloads-tab[NetApp NFS Plug-in for VMware VAAI^] installation package.
 * Make sure you have the ESXi host and vSphere 7.0U3 latest patch or later versions and ONTAP 9.14.1 or later versions.  
 * Mount an NFS datastore.
 // OTVDOC-238 - jani
@@ -41,13 +41,13 @@ After you’ve installed the NFS VAAI plug-in and rebooted your ESXi host,  you 
 * The root user should remain as root and NFSv4 should be allowed in all junction parent volumes.
 * The option for VAAI support needs to be set on the relevant NFS server.
 
-For more information on the procedure, refer to https://kb.netapp.com/on-prem/ontap/DM/VAAI/VAAI-KBs/Configure_the_correct_NFS_export_policies_for_VAAI_copy_offload[Configure the correct NFS export policies for VAAI copy offload] KB article.
+For more information on the procedure, refer to https://kb.netapp.com/on-prem/ontap/DM/VAAI/VAAI-KBs/Configure_the_correct_NFS_export_policies_for_VAAI_copy_offload[Configure the correct NFS export policies for VAAI copy offload^] KB article.
 
 // added as part of github issue https://github.com/NetAppDocs/ontap-tools-vmware-vsphere-10/issues/13
 .Related information
 
-https://docs.netapp.com/us-en/ontap/nfs-admin/support-vmware-vstorage-over-nfs-concept.html[Support for VMware vStorage over NFS]
+https://docs.netapp.com/us-en/ontap/nfs-admin/support-vmware-vstorage-over-nfs-concept.html[Support for VMware vStorage over NFS^]
 
-https://docs.netapp.com/us-en/ontap/nfs-admin/enable-disable-nfsv40-task.html[Enable or disable NFSv4.0]
+https://docs.netapp.com/us-en/ontap/nfs-admin/enable-disable-nfsv40-task.html[Enable or disable NFSv4.0^]
 
-https://docs.netapp.com/us-en/ontap/nfs-admin/ontap-support-nfsv42-concept.html#nfs-v4-2-security-labels[ONTAP support for NFSv4.2]
+https://docs.netapp.com/us-en/ontap/nfs-admin/ontap-support-nfsv42-concept.html#nfs-v4-2-security-labels[ONTAP support for NFSv4.2^]
